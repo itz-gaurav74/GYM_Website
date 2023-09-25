@@ -1,0 +1,107 @@
+@media (max-width: 488px) {
+  header {
+    font-size: 10px;
+  }
+  .navigation ul {
+    padding: 2em 0;
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(7px);
+}
+@keyframes color{
+    0%{
+color:crimson;
+    }
+    50%{
+color: aqua;
+    }
+    100%{
+color: crimson;
+    }
+}
+  
+  .navigation ul a {
+    color: crimson;
+    font-weight: 600;
+    letter-spacing: 1px;
+    animation: color 5s linear infinite;  
+  }
+  .typing-msg {
+    top: 50%;
+  }
+  .main-screen h2 {
+    top: 55%;
+  }
+  .main-screen {
+    font-size: 7px;
+  }
+  .main-content {
+    font-size: 20px;
+    padding: 0.5em;
+  }
+  .main-content p {
+    text-align: start;
+    line-height: 1.4;
+    font-size: 14px;
+  }
+  .main-content-coach {
+    padding: 0.2em;
+  }
+  .main-content-coach h2 {
+    font-size: 24px;
+  }
+  .main-content-coach p {
+    font-size: 20px;
+  }
+  .main-content-our-club > h2 {
+    font-size: 24px;
+  }
+  .main-content-our-club {
+    padding: 1em;
+  }
+  .main-content-our-club > p {
+    font-size: 20px;
+    text-align: start;
+  }
+  .main-content-specifications > h2 {
+    font-size: 28px;
+  }
+  .img-1,
+  .img-2,
+  .img-3 {
+    height: 200px;
+    width: 200px;
+  }
+  .block-5 {
+    height: 250vh;
+  }
+  .grid-container {
+    grid-template-columns: 1fr;
+  }
+  .aside-data {
+    padding-left: 0.2em;
+    font-size: 14px;
+    margin: 4em 0 0 0;
+  }
+  .img_aside {
+    height: 300px;
+    width: 200px;
+    margin-top: 5em;
+  }
+  .block-7 > h2 {
+    font-size: 24px;
+  }
+  .card-section {
+    gap: 1em;
+    padding: 0;
+    font-size: 16px;
+  }
+  .card {
+    border-radius: 7px;
+  }
+}
+@media (max-width: 600px) {
+}
+
+@media (max-width: 768px) {
+}

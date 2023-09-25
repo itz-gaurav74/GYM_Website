@@ -1,34 +1,34 @@
 /* Default Clear CSS  */
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    scroll-behavior: smooth;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 body {
-    height: 100vh;
-    width: 100%;
-    color: coral;
+  height: 100vh;
+  width: 100%;
+  color: coral;
 }
 
 /* Block-1 Start  */
 .background-img {
-    height: 130vh;
-    background-image: url(IMG/banner-bg.jpg);
-    /* background-color: black; */
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
+  height: 130vh;
+  background-image: url(IMG/banner-bg.jpg);
+  /* background-color: black; */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 .nav-brand {
-    display: flex;
-    justify-content: center;
-    padding: 1em 0em 0em 0em;
-    width: fit-content;
-    /* background-color: rgb(78, 55, 23); */
+  display: flex;
+  justify-content: center;
+  padding: 1em 0em 0em 0em;
+  width: fit-content;
+  /* background-color: rgb(78, 55, 23); */
 }
 
 /*--- When HTML Marquee is not working we use this css  ---*/
@@ -46,349 +46,338 @@ transform: translateX(100%);
 } */
 
 .nav-brand i {
-    margin-left: 0.3em;
-    padding-top: 0.78em;
+  margin-left: 0.3em;
+  padding-top: 0.78em;
 }
 
 .navigation {
-    font-size: 1.5em;
+  font-size: 1.5em;
 }
 
 .navigation ul {
-    list-style: none;
-    padding: 1em 0;
+  list-style: none;
+  padding: 1em 0;
 }
 
 .navigation ul a {
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
 }
 
 .right {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    /* background-color: rgb(63, 15, 236); */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  /* background-color: rgb(63, 15, 236); */
 }
 
 .nav-item {
-    margin-left: 1em;
-    font-size: 1.5em;
+  margin-left: 1em;
+  font-size: 1.5em;
 }
 
 .main-screen h2 {
-    position: absolute;
-    top: 40%;
-    margin: 0 2em;
-    font-size: 2em;
-    text-transform: uppercase;
+  position: absolute;
+  top: 40%;
+  margin: 0 2em;
+  font-size: 2em;
+  text-transform: uppercase;
 }
 
 .typing-msg {
-    position: absolute;
-    top: 35%;
-    left: 5em;
+  position: absolute;
+  top: 35%;
+  left: 5em;
 }
 
 #typed-text {
-    font-size: 2.8em;
-    font-family: monospace;
-    font-weight: 800;
-    line-height: 0;
+  font-size: 2.8em;
+  font-family: monospace;
+  font-weight: 800;
+  line-height: 0;
 }
 
 .typed-cursor {
-    display: none;
+  display: none;
 }
 
 /* Block-2 Start  */
 .main-content {
-    height: 130vh;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    font-size: 2.7em;
-    padding: 2em;
-    /* background: #0e0d0deb; */
-    background-image: url(IMG/about.jpg);
-    /* background-color: black; */
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    color: rgb(224 192 146 / 85%);
-    background-attachment: fixed;
+  height: 130vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 2.7em;
+  padding: 2em;
+  /* background: #0e0d0deb; */
+  background-image: url(IMG/about.jpg);
+  /* background-color: black; */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: rgb(224 192 146 / 85%);
+  background-attachment: fixed;
 }
 
 .main-content h2 {
-    margin: 50px 0;
-    font-size: 1.5em;
+  margin: 50px 0;
+  font-size: 1.5em;
 }
 
 .main-content h3 {
-    margin-bottom: .3em;
-    font-size: 1em;
+  margin-bottom: 0.3em;
+  font-size: 1em;
 }
 
 .main-content p {
-    line-height: 1.8em;
-    text-align: center;
-    font-size: .6em;
-    margin-bottom: 1em;
+  line-height: 1.8em;
+  text-align: center;
+  font-size: 0.6em;
+  margin-bottom: 1em;
 }
 
 /* Coach Section */
 .background-img-3 {
-    height: 130vh;
-    width: 100%;
-    background-image: url(IMG/coach.jpg);
-    /* background-color: black; */
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    color: rgb(255, 255, 255);
-    background-attachment: fixed;
+  height: 130vh;
+  width: 100%;
+  background-image: url(IMG/coach.jpg);
+  /* background-color: black; */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: rgb(255, 255, 255);
+  background-attachment: fixed;
 }
 
 .main-content-coach {
-    height: 130vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    font-size: 2.7em;
-    padding: 2em;
-    box-shadow: inset 0 0 0 1000px rgb(2 1 1 / 20%);
+  height: 130vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 2.7em;
+  padding: 2em;
+  box-shadow: inset 0 0 0 1000px rgb(2 1 1 / 20%);
 }
 
 .main-content-coach h2 {
-    padding-bottom: 2em;
+  padding-bottom: 2em;
 }
 
 .main-content-coach p {
-    text-align: center;
-    font-size: clamp(3rem, 2.5vw, 3rem);
+  text-align: center;
+  font-size: clamp(3rem, 2.5vw, 3rem);
 }
 
 /* Our Club Section */
 .block-4 {
-    height: 130vh;
-    width: 100%;
-    /* background-color: #4a4646f0; */
-    background-image: url(IMG/our-club-bg.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    color: rgb(255, 255, 255);
-    background-attachment: fixed;
+  height: 130vh;
+  width: 100%;
+  /* background-color: #4a4646f0; */
+  background-image: url(IMG/our-club-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: rgb(255, 255, 255);
+  background-attachment: fixed;
 }
 
 .main-content-our-club {
-    height: 130vh;
-    display: flex;
-    /* justify-content: center; */
-    align-items: center;
-    flex-direction: column;
-    font-size: 2.7em;
-    padding: 2em;
-    box-shadow: inset 0 0 0 1000px rgb(2 1 1 / 20%);
+  height: 130vh;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  flex-direction: column;
+  font-size: 2.7em;
+  padding: 2em;
+  box-shadow: inset 0 0 0 1000px rgb(2 1 1 / 20%);
 }
 
-.main-content-our-club>h2 {
-    padding-bottom: 1em;
+.main-content-our-club > h2 {
+  padding-bottom: 1em;
 }
 
-.main-content-our-club>p {
-    text-align: center;
-    font-size: clamp(3rem, 2.5vw, 3rem);
+.main-content-our-club > p {
+  text-align: center;
+  font-size: clamp(3rem, 2.5vw, 3rem);
 }
 
 /* GYM Specifications */
 .block-5 {
-    height: 160vh;
-    background: black;
+  /* height: 160vh; */
+  background: black;
 }
 
-.main-content-specifications>h2 {
-    text-align: center;
-    padding: 1em 0;
-    font-size: 3em;
+.main-content-specifications > h2 {
+  text-align: center;
+  padding: 1em 0;
+  font-size: 3em;
 }
 
 .img-box {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    top: 2em;
-    position: relative;
-    gap: 4em;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  top: 2em;
+  position: relative;
+  gap: 4em;
 }
 
 .img h3 {
-    text-align: center;
-    padding: 1em 0;
-    font-size: 1.7em;
-    text-transform: uppercase;
-    letter-spacing: 1px;
+  text-align: center;
+  padding: 1em 0;
+  font-size: 1.7em;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 .img-1 {
-    height: 350px;
-    width: 400px;
-    background-image: url(IMG/workout.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    border: 2px solid #e6ff00;
-    border-radius: 10px;
-    overflow: hidden;
+  height: 350px;
+  width: 400px;
+  background-image: url(IMG/workout.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border: 2px solid #e6ff00;
+  border-radius: 10px;
+  overflow: hidden;
 }
 
 .img-2 {
-    height: 350px;
-    width: 400px;
-    background-image: url(IMG/gym-were.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    border: 2px solid #e6ff00;
-    border-radius: 10px;
-    overflow: hidden;
+  height: 350px;
+  width: 400px;
+  background-image: url(IMG/gym-were.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border: 2px solid #e6ff00;
+  border-radius: 10px;
+  overflow: hidden;
 }
 
 .img-3 {
-    height: 350px;
-    width: 400px;
-    background-image: url(IMG/nutriton.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    border: 2px solid #e6ff00;
-    border-radius: 10px;
-    overflow: hidden;
+  height: 350px;
+  width: 400px;
+  background-image: url(IMG/nutriton.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border: 2px solid #e6ff00;
+  border-radius: 10px;
+  overflow: hidden;
 }
 
 .grid-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
-    padding: 20px;
-    place-items: center;
-    width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 2fr));
+  place-items: center;
+  width: 100%;
 }
 
 .aside-data {
-    padding-left: 2em;
-    text-align: start;
-    margin: 10em auto;
-    font-size: 1.7em;
+  padding-left: 2em;
+  text-align: start;
+  margin: 10em auto;
+  font-size: 1.7em;
 }
 
 .aside-data h2,
 .aside-data p {
-    margin: 0.5em;
+  margin: 0.5em;
 }
 
 .aside-image {
-    text-align: center;
-    padding: 20px;
-    height: 60vh;
-    width: 40vh;
-    background-image: url(IMG/img-info.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    border: 2px solid #e6ff00;
-    border-radius: 10px;
-    overflow: hidden;
-    margin-left: 5em;
+  height: 100%;
+  width: 100%;
+  /* border: 2px solid white; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-
-
-
+.img_aside {
+  height: 500px;
+  width: 300px;
+  background: url(IMG/img-info.jpg) no-repeat center top / cover;
+  border-radius: 15px;
+}
 
 /* Block-7 Start  */
 .block-7 {
-    position: relative;
-    
+  position: relative;
+  background: url(IMG/membership-plan-bg.jpg) no-repeat center top / cover;
 }
 
-.block-7>h2 {
-    top: 0;
-    left: 0;
-    margin: 10% 45%;
-    position: absolute;
-    font-size: 2.7em;
-    background: #0D1691;
-    background: -webkit-radial-gradient(ellipse farthest-corner at right center, #0D1691 37%, #F0679E 34%, #CF1512 70%);
-    background: -moz-radial-gradient(ellipse farthest-corner at right center, #0D1691 37%, #F0679E 34%, #CF1512 70%);
-    background: radial-gradient(ellipse farthest-corner at right center, #0D1691 37%, #F0679E 34%, #CF1512 70%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    
+.block-7 > h2 {
+  font-size: 2.7em;
+  background: radial-gradient(
+    ellipse farthest-corner at right center,
+    #21c2c6eb 37%,
+    #f0679e 34%,
+    #cf1512 70%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  padding: 0.5em 0;
 }
 
 .card-section {
-    height: 100vh;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    gap: 2em;
-    padding: 2em;
-    justify-content: center;
-    align-items: center;
-    font-size: 2em;
-    text-align: start;
-    /* background: #464141; */
-    background-image: url(IMG/membership-plan-bg.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    color: rgb(0, 0, 0);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 2em;
+  padding: 2em;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+  text-align: start;
+  color: rgb(0, 0, 0);
 }
 
 .card {
-    padding: 1.3em;
-    background: rgba(255, 255, 255, 0.25);
-    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-    backdrop-filter: blur(11px);
-    -webkit-backdrop-filter: blur(11px);
-    border-radius: 10px;
-    border: 1px solid rgba(255, 255, 255, 0.18);
-    border: 1px solid black;
-    border-radius: 16px;
-    
+  padding: 1.3em;
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(11px);
+  -webkit-backdrop-filter: blur(11px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border: 1px solid black;
+  border-radius: 16px;
 }
 
 .card h2 {
-    font-size: 1em;
+  font-size: 1em;
 }
 
 .card h3 {
-    margin-bottom: 1em;
-    font-size: .8em;
+  margin-bottom: 1em;
+  font-size: 0.8em;
 }
 
 .card li::marker {
-    content: "✔ ";
+  content: "✔ ";
 }
 
 .card li {
-    font-size: .7em;
+  font-size: 0.7em;
 }
 
-
-.top{
-    display: flex;
-    align-items: end;
-    justify-content: end;
-    border: 1px solid #000000;
-    background: #9e97979c;
-    border-radius: 50%;
-    padding: 2px;
-    position: absolute;
-    right: 10px;
-    bottom: 10px;
+.top {
+  display: flex;
+  align-items: end;
+  justify-content: end;
+  border: 1px solid #000000;
+  background: #9e97979c;
+  border-radius: 50%;
+  padding: 2px;
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
 }
